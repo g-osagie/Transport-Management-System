@@ -12,13 +12,11 @@
 
     There is also no platform through which students can find available kekes, request transportation, track drivers or connect with other students going in similar directions.
 
-    All these create a need for a transportation platform that provides access to available kekes, facilitates ride-sharing and provides students with a more conduisive transportation experience.
-
 
 ## Project Overview, Vision and Solution to the recognised problem~
     BU-Ride is a mobile transportation platform designed to improve the transportation experience of students within Babcock University.
     It connects students to registered Keke drivers using an automated driver-matching system. It enebles students to request individual rides, create shared rides with other students going in the same direction, or join existing rides with available seats.
-    The Platform is going to be operating somewhat like UBER but for students in the university containing features such as real-time driver tracking, ride requests, driver verification, fixed price rates, digital payments and trip management.
+    The platform is going to be operating somewhat like UBER but for students in the university containing features such as real-time driver tracking, ride requests, driver verification, fixed price rates, digital payments and trip management.
     The main aim of BU-Ride is to make transportation more accessible, reliable, and convenient for students while helping registered keke drivers connect with passengers more efficiently and in real time.
 
 
