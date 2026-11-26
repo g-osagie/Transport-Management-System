@@ -253,7 +253,7 @@
     validate during registration.
 
 ## Open Questions...
-   -How is an in-app transfer confirmed: manually by the driver, or automatically 
+    -How is an in-app transfer confirmed: manually by the driver, or automatically 
     through a payment gateway (e.g., Paystack or Flutterwave)? This also decides 
     how duplicate charges and the "pending" state are detected.
     -Can students schedule bookings in advance? It appears under user stories but 
