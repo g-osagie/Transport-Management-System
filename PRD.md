@@ -1,6 +1,5 @@
-# ~Babcock University Student Transportation System [BU-Ride]~
-    **Developers**- TetraStack
-    **Location**- Babcock University, Ilishan-Remo, Ogun State, Nigeria
+## ~Babcock University Student Transportation System [BU-Ride]~
+
 
 
 ## Project Overview~
