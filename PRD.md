@@ -205,7 +205,7 @@
     For the first version:
     It must contain:
     -A Student side
-    -A Users side
+    -A Drivers side
     -An Admin side 
     -Booking system
     -Matching System to match available drivers with students.
