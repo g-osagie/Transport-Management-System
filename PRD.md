@@ -50,7 +50,8 @@
             email addresses.
             -Students should be able to provide active phone numbers.
             -Students should be able to create strong passwords.
-            -The system should be able to verify email ownership.
+            -The system should be able to verify email ownership using OTP and the 
+            likes.
             -Phone numbers should be able to be verified using an OTP.
             -Students should be able to be able to log in and log out.
             -Students should be able to be able to reset forgotten passwords.
