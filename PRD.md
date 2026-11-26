@@ -1,4 +1,4 @@
-## ~Babcock University Student Transportation System [BU-Ride]~
+## Babcock University Student Transportation System [BU-Ride]
 
 
 
