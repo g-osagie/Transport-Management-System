@@ -3,7 +3,14 @@
     **Location**- Babcock University, Ilishan-Remo, Ogun State, Nigeria
 
 
-## Problem Recognised~
+## Project Overview~
+    BU-Ride is a mobile transportation platform designed to improve the transportation experience of students within Babcock University.
+    It connects students to registered Keke drivers using an automated driver-matching system. It enebles students to request individual rides, create shared rides with other students going in the same direction, or join existing rides with available seats.
+    The platform is going to be operating somewhat like UBER but for students in the university containing features such as real-time driver tracking, ride requests, driver verification, fixed price rates, digital payments and trip management.
+    The main aim of BU-Ride is to make transportation more accessible, reliable, and convenient for students while helping registered keke drivers connect with passengers more efficiently and in real time.
+
+
+## Problem Statement~
     Students of Babcock University often have problems when it comes to the transport system of the school which is mainly the use of tricycles (Kekes) especially when going to major areas or classes far away from their hall of residence or current location. 
 
     Students usually run late to their destination due to drivers not going their way or full Kekes passing their current location and it can take long time for them to get a ride which sometimes they have the charter at higher prices cause drivers don't want to go far or that particular student is the only one going to the location such as BUTH, Pioneer Church, EAH etc.
@@ -12,13 +19,10 @@
 
     There is also no platform through which students can find available kekes, request transportation, track drivers or connect with other students going in similar directions.
 
-
-## Project Overview, Vision and Solution to the recognised problem~
-    BU-Ride is a mobile transportation platform designed to improve the transportation experience of students within Babcock University.
-    It connects students to registered Keke drivers using an automated driver-matching system. It enebles students to request individual rides, create shared rides with other students going in the same direction, or join existing rides with available seats.
-    The platform is going to be operating somewhat like UBER but for students in the university containing features such as real-time driver tracking, ride requests, driver verification, fixed price rates, digital payments and trip management.
-    The main aim of BU-Ride is to make transportation more accessible, reliable, and convenient for students while helping registered keke drivers connect with passengers more efficiently and in real time.
-
+## Business Objective
+ -To make transportation easy for students on campus.
+ -To avoid overpricing.
+ -To ensure students get to their destination early.
 
 ## Target Audience Based on Research Findings~
     BU-Ride is primarily for Students of Babcock University.
@@ -38,6 +42,18 @@
             ~Admin Side-
                 ~Those responsible for verifying drivers, managing user accounts, 
                 monitoring activities and handling complaints.
+
+
+## Stakeholders
+    -Keke Drivers
+    -Students
+    -School Administration
+
+
+## User Stories
+    -Users want to get Keke rides on time
+    -Users want to be able to schedule their bookings
+    -Users want to be able track their drivers in real time.
 
 
 ## Platform Features and Functional Requirement~
@@ -196,12 +212,11 @@
                 failed payments.
                 -Duplicate charges must be prevented.
 
-## User Stories
-    -Users want to get Keke rides on time
-    -Users want to be able to schedule their bookings
-    -Users want to be able track their drivers in real time.
 
-# ## MVP
+## Non-Functional Requirements
+    -Real time navigation system
+    -Scheduling rides in Advance
+## MVP (Scope and Priorities)
     For the first version:
     It must contain:
     -A Student side
@@ -210,3 +225,37 @@
     -Booking system
     -Payment System
     -Matching System to match available drivers with students.
+
+## Acceptance Criteria...
+    -Registration succeeds only with a Babcock University email address; other 
+    domains are rejected with a clear error.
+    -The account is not activated until both the email OTP and the phone OTP are 
+    verified.
+   -Passwords below the defined strength rule (e.g., 8+ characters, mixed case, 
+    number) are rejected.
+    -A student can log in, log out, and reset a forgotten password via a verified 
+    link or OTP.
+    -A student can edit their profile details, and the changes persist after logout 
+    and login.
+    -A driver with "Pending" or "Rejected" status cannot go online or receive ride 
+    requests.
+    -Once approved by an admin, the driver can access the dashboard and is notified 
+    of the approval.
+
+## Assumptions...
+    -Students have smartphones with mobile data or Wi-Fi coverage across campus, so 
+    real-time tracking and booking are feasible.
+    -Drivers have smartphones capable of running the driver app and sharing GPS 
+    continuously while online.
+    -Registered Keke drivers are willing to join, and the school administration or 
+    the keke drivers' union supports onboarding.
+    -Every Keke has a fixed passenger limit of 4, as stated in the requirements.
+    -Babcock student emails follow a consistent domain, which the system can 
+    validate during registration.
+
+## Open Questions...
+   -How is an in-app transfer confirmed: manually by the driver, or automatically 
+    through a payment gateway (e.g., Paystack or Flutterwave)? This also decides 
+    how duplicate charges and the "pending" state are detected.
+    -Can students schedule bookings in advance? It appears under user stories but 
+    isn't in the MVP list.
