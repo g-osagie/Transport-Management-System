@@ -195,4 +195,17 @@
                 -The system must be able to distinguish successful, pending and 
                 failed payments.
                 -Duplicate charges must be prevented.
-    ### Ride Cancellation System...
+
+## User Stories
+    -Users want to get Keke rides on time
+    -Users want to be able to schedule their bookings
+    -Users want to be able track their drivers in real time.
+
+# ## MVP
+    For the first version:
+    It must contain:
+    -A Student side
+    -A Users side
+    -An Admin side 
+    -Booking system
+    -Matching System to match available drivers with students.
