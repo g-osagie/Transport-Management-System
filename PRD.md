@@ -19,9 +19,9 @@
     There is also no platform through which students can find available kekes, request transportation, track drivers or connect with other students going in similar directions.
 
 ## Business Objective
- -To make transportation easy for students on campus.
- -To avoid overpricing.
- -To ensure students get to their destination early.
+    -To make transportation easy for students on campus.
+    -To avoid overpricing.
+    -To ensure students get to their destination early.
 
 ## Target Audience Based on Research Findings~
     BU-Ride is primarily for Students of Babcock University.
